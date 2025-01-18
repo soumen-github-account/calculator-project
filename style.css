@@ -22,9 +22,6 @@ body{
     backdrop-filter: blur(10px);
 }
 
-.container .edit{
-    color: aliceblue;
-}
 input{
     width:295px;
     border:none;
@@ -63,4 +60,19 @@ input::placeholder{
 
 .equal{
     background-color: #fd7c14;
+}
+
+@media(max-width: 369px){
+    input{
+        width: 290px;
+    }
+    .btn{
+        height: 40px;
+        width: 67px;
+        font-size: 15px;
+    }
+    .in{
+        display: flex;
+        align-items: center;
+    }
 }
